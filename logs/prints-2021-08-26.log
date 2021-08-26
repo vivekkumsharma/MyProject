@@ -1,0 +1,8 @@
+13:48:40.992 [main] INFO  resources.base - Browser Closed
+13:48:42.857 [main] INFO  resources.base - Driver initialized
+13:48:45.024 [main] INFO  resources.base - Navigated to base URL
+13:48:45.162 [main] INFO  resources.base - Userid entered
+13:48:45.255 [main] INFO  resources.base - continue button clicked
+13:48:45.510 [main] INFO  resources.base - password entered
+13:48:45.577 [main] INFO  resources.base - continue button clicked
+13:48:48.609 [main] INFO  resources.base - gravatar toggle is disabled on page load

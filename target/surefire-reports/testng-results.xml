@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-26T17:47:36Z" name="Suite" finished-at="2021-08-26T17:48:48Z" duration-ms="72364">
+    <groups>
+    </groups>
+    <test started-at="2021-08-26T17:47:36Z" name="Test" finished-at="2021-08-26T17:48:48Z" duration-ms="72364">
+      <class name="Assignment.WordPress.Logintests">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Assignment.WordPress.Logintests@79a1728c]" started-at="2021-08-26T13:47:36Z" name="initialize" finished-at="2021-08-26T13:47:37Z" duration-ms="1317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="loginSuccess(java.lang.String, java.lang.String)[pri:0, instance:Assignment.WordPress.Logintests@79a1728c]" started-at="2021-08-26T13:47:37Z" name="loginSuccess" data-provider="getSuccessfullogindata" finished-at="2021-08-26T13:47:39Z" duration-ms="1866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wpdemouser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester123$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccess -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Assignment.WordPress.Logintests@79a1728c]" started-at="2021-08-26T13:47:39Z" name="closeBrowser" finished-at="2021-08-26T13:47:43Z" duration-ms="4172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Assignment.WordPress.Logintests@79a1728c]" started-at="2021-08-26T13:47:50Z" name="initialize" finished-at="2021-08-26T13:47:51Z" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="loginFailure(java.lang.String, java.lang.String)[pri:0, instance:Assignment.WordPress.Logintests@79a1728c]" started-at="2021-08-26T13:47:51Z" name="loginFailure" data-provider="getUnsuccessfullogindata" finished-at="2021-08-26T13:47:54Z" duration-ms="2654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wpdemouser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailure -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Assignment.WordPress.Logintests@79a1728c]" started-at="2021-08-26T13:47:54Z" name="closeBrowser" finished-at="2021-08-26T13:47:54Z" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Assignment.WordPress.Logintests -->
+      <class name="Assignment.WordPress.Myprofiletests">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:47:43Z" name="initialize" finished-at="2021-08-26T13:47:44Z" duration-ms="880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifymyProfilepageload(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:47:44Z" name="verifymyProfilepageload" data-provider="getPageloaddata" finished-at="2021-08-26T13:47:50Z" duration-ms="6054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wpdemouser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester123$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vivek]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifymyProfilepageload -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:47:50Z" name="closeBrowser" finished-at="2021-08-26T13:47:50Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:47:54Z" name="initialize" finished-at="2021-08-26T13:47:55Z" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="updateDisplaynameandaboutme(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:47:55Z" name="updateDisplaynameandaboutme" data-provider="getDisplayNameandAboutMedata" finished-at="2021-08-26T13:48:00Z" duration-ms="5323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wpdemouser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester123$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wpdemouser1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Word Press about Me]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateDisplaynameandaboutme -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:00Z" name="closeBrowser" finished-at="2021-08-26T13:48:00Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:00Z" name="initialize" finished-at="2021-08-26T13:48:02Z" duration-ms="1051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifydiabledSaveprofiledetailbutton(java.lang.String, java.lang.String)[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:02Z" name="verifydiabledSaveprofiledetailbutton" data-provider="getDiabledSaveprofiledetailbutton" finished-at="2021-08-26T13:48:04Z" duration-ms="2118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wpdemouser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester123$]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydiabledSaveprofiledetailbutton -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:04Z" name="closeBrowser" finished-at="2021-08-26T13:48:04Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:04Z" name="initialize" finished-at="2021-08-26T13:48:05Z" duration-ms="1372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyenabledSaveprofiledetailbutton(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:05Z" name="verifyenabledSaveprofiledetailbutton" data-provider="getenabledSaveprofiledetailbutton" finished-at="2021-08-26T13:48:11Z" duration-ms="6359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wpdemouser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester123$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wpdemouser1 Updated]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Word Press about Me Updated]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyenabledSaveprofiledetailbutton -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:11Z" name="closeBrowser" finished-at="2021-08-26T13:48:11Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:11Z" name="initialize" finished-at="2021-08-26T13:48:13Z" duration-ms="1390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="addUrl(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:13Z" name="addUrl" data-provider="getUrl" finished-at="2021-08-26T13:48:20Z" duration-ms="6860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wpdemouser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester123$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[www.test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUrl -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:20Z" name="closeBrowser" finished-at="2021-08-26T13:48:20Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:20Z" name="initialize" finished-at="2021-08-26T13:48:21Z" duration-ms="1451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="deleteUrl(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:21Z" name="deleteUrl" data-provider="getUrl" finished-at="2021-08-26T13:48:26Z" duration-ms="5205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wpdemouser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester123$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[www.test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUrl -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:26Z" name="closeBrowser" finished-at="2021-08-26T13:48:26Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:26Z" name="initialize" finished-at="2021-08-26T13:48:28Z" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="addSite(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:28Z" name="addSite" data-provider="getUrl" finished-at="2021-08-26T13:48:34Z" duration-ms="5907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wpdemouser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester123$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[www.test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSite -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:34Z" name="closeBrowser" finished-at="2021-08-26T13:48:34Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:34Z" name="initialize" finished-at="2021-08-26T13:48:35Z" duration-ms="1415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="deleteSite(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:35Z" name="deleteSite" data-provider="getUrl" finished-at="2021-08-26T13:48:40Z" duration-ms="5442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wpdemouser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester123$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[www.test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSite -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:40Z" name="closeBrowser" finished-at="2021-08-26T13:48:40Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:40Z" name="initialize" finished-at="2021-08-26T13:48:42Z" duration-ms="1861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyToggleonmyProfilepageload(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:42Z" name="verifyToggleonmyProfilepageload" data-provider="getPageloaddata" finished-at="2021-08-26T13:48:48Z" duration-ms="5967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wpdemouser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester123$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vivek]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToggleonmyProfilepageload -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Assignment.WordPress.Myprofiletests@3e83c18]" started-at="2021-08-26T13:48:48Z" name="closeBrowser" finished-at="2021-08-26T13:48:48Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Assignment.WordPress.Myprofiletests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
